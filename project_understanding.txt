@@ -1,0 +1,32 @@
+Project Understanding: BreedLens - Cattle and Buffalo Breed Identification for BPA
+
+Problem:
+- The Bharat Pashudhan App (BPA) faces issues with incorrect identification of cattle and buffalo breeds
+- Field Level Workers (FLWs) struggle with accurate breed identification despite training
+- Misclassification affects data integrity for research, policy planning, and interventions
+
+Solution Approach:
+1. Build an AI-driven breed identification system using image recognition
+2. Create a user-friendly interface for FLWs with minimal technical training requirements
+3. Develop a system that can handle diverse environmental backgrounds, lighting conditions, and animal poses
+4. Maintain a database of Indian cattle and buffalo breeds and their crosses
+5. Design an interface that can be integrated with BPA platform
+
+Project Structure:
+- Clean folder structure with separate components for different functionalities
+- Custom hooks for reusable logic
+- Files limited to 100-150 lines of code for maintainability
+- Focus first on UI development, then AI integration later
+- Component-based architecture for better debugging
+
+Key Features to Implement:
+1. User authentication for FLWs
+2. Dashboard for quick access to main functions
+3. Camera/Image upload interface
+4. Breed identification results display
+5. History of past identifications
+6. Settings for app preferences
+7. Analytics for identification statistics
+8. Integration capabilities with BPA
+
+Initially focusing on building the UI components while maintaining a clean architecture that will be ready for AI integration later.
